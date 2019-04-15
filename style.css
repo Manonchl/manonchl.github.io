@@ -1,0 +1,30 @@
+body{
+background-color: #aaaaaa;
+margin-left: 200px;
+
+}
+ul.navbar{
+position: absolute;
+    border: 2px solid black;
+top: 30px;
+left: 15px;
+width: 100px;
+}
+h1{
+color: white;
+}
+
+span{
+    color : darkblue;
+}
+#toaster{
+    color : #ff0df5;
+}
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: darkred;
+}
