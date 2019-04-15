@@ -1,13 +1,13 @@
 function init(){
-    document.getElementById("flow0").src = "flower1.png";
-    document.getElementById("flow1").src = "flower1.png";
-    document.getElementById("flow2").src = "flower1.png";
-    document.getElementById("flow3").src = "flower1.png";
-    document.getElementById("flow4").src = "flower1.png";
+    document.getElementById("flow0").src = "flower1.jpg";
+    document.getElementById("flow1").src = "flower1.jpg";
+    document.getElementById("flow2").src = "flower1.jpg";
+    document.getElementById("flow3").src = "flower1.jpg";
+    document.getElementById("flow4").src = "flower1.jpg";
 
 
-    document.getElementById("container").getElementsByTagName("img")[1].src = "flower2.png";
-    document.getElementById("container").getElementsByTagName("img")[3].src = "flower2.png";
+    document.getElementById("container").getElementsByTagName("img")[1].src = "flower2.jpg";
+    document.getElementById("container").getElementsByTagName("img")[3].src = "flower2.jpg";
 
     document.getElementById("empty").innerHTML = "<div><p>Your are great!</p></div>";
 
@@ -30,10 +30,10 @@ function init(){
             let index = event.target.src.search(/flower\d\.png$/);
             switch (event.target.src.slice(index)) {
                 case 'flower1.png':
-                    event.target.src = 'flower2.png';
+                    event.target.src = 'flower2.jpg';
                     break;
                 case 'flower2.png':
-                    event.target.src = 'flower1.png';
+                    event.target.src = 'flower1.jpg';
                     break;
             }
         }
